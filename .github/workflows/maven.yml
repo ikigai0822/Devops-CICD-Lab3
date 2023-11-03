@@ -14,7 +14,7 @@ jobs:
     - name: Set up Java
       uses: actions/setup-java@v2
       with:
-        java-version: '11'  # Change this to the desired Java version
+        java-version: '17'  # Change this to the desired Java version
 
 
     - name: Build with Maven
